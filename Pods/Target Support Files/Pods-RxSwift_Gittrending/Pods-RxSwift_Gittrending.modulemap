@@ -1,0 +1,6 @@
+framework module Pods_RxSwift_Gittrending {
+  umbrella header "Pods-RxSwift_Gittrending-umbrella.h"
+
+  export *
+  module * { export * }
+}

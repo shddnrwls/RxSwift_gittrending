@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.7.2)
+  - DropDown (2.3.2)
+  - Kanna (4.0.0)
+  - RxAlamofire (4.2.0):
+    - RxAlamofire/Core (= 4.2.0)
+  - RxAlamofire/Core (4.2.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - Kanna (~> 4.0.0)
+  - RxAlamofire
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - DropDown
+    - Kanna
+    - RxAlamofire
+    - RxCocoa
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  Kanna: d5ae2a26472f7e7a474e7f36a9cd8aa2c8c63ad3
+  RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: d9cf6d2b30577012d605406d6675ad19355536d4
+
+COCOAPODS: 1.5.0
