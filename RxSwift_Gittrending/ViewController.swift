@@ -9,9 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        DispatchQueue.global(qos: .background).async {
+            let arr : Array<Array<String>> = ParsingManager.instance.all() as! Array<Array<String>>
+        }
+       
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

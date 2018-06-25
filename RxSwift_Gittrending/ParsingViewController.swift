@@ -12,7 +12,10 @@ class ParsingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        DispatchQueue.global(qos: .background).async{
+            let doc = ParsingManager.instance.all()
+            
+        }
         // Do any additional setup after loading the view.
     }
 
@@ -20,7 +23,6 @@ class ParsingViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation

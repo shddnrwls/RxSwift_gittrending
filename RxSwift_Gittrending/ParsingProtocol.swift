@@ -23,10 +23,8 @@ extension ParsingProtocol{
             return false
         }
         do{
-            
             let lolMain = try String(contentsOf: main, encoding: .utf8)
             let doc = try HTML(html: lolMain, encoding: .utf8)
-            
             return doc
         }
         catch let error {
